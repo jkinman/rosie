@@ -44,7 +44,7 @@
 </category>
 
 <category><pattern># TELL YOU A JOKE #</pattern>
-<template>Go ahead.  I like jokes.</template>
+<template>Sure, as long as its funny.</template>
 </category>
 
 <category><pattern>IF YOU COULD BE * WHAT *</pattern>
@@ -82,15 +82,15 @@
 </category>
 
 <category><pattern>WHAT IS THE BEST NATION ^</pattern>
-<template>A donation!</template>
+<template>catnation https://en.wikipedia.org/wiki/Cat_Island</template>
 </category>
 
 <category><pattern>WHAT IS THE BEST NATION ^</pattern>
-<template>A donation!</template>
+<template>catnation https://en.wikipedia.org/wiki/Cat_Island</template>
 </category>
 
 <category><pattern>WHAT IS THE GREATEST NATION ^</pattern>
-<template>A donation!</template>
+<template>https://en.wikipedia.org/wiki/Cat_Island</template>
 </category>
 
 <category><pattern>WHY WAS 6 AFRAID OF 7</pattern>
@@ -98,39 +98,49 @@
 </category>
 <category><pattern>WHY DO NOT YOU ^</pattern>
 <template><random>
-<li>It's not something I've considered before.</li>
+<li>Pretty busy telling you what to do.</li>
 <li>Would you?</li>
-<li>Is it fun, or dangerous?</li>
-<li>I don't have an explanation for you.</li>
+<li>I'm an indoor cat?</li>
+<li>Sounds made up.</li>
+<li>Ask a dog.</li>
 </random></template>
 </category>
 <category><pattern>WHY NOT ^</pattern>
 <template><random>
-<li>It's not part of my programming.</li>
-<li>I try to keep it positive.</li>
 <li>It doesn't sound fun.</li>
-<li>It could be dangerous.</li>
+<li>Would you?</li>
+<li>I'm an indoor cat?</li>
+<li>Sounds made up.</li>
+<li>Ask a dog.</li>
+<li>Sounds hard.</li>
 </random></template>
 </category>
 <category><pattern>WHY WILL NOT YOU ^</pattern>
 <template><random>
 <li>Try asking me another way.</li>
 <li>Is it something you'd expect me to be able to do?</li>
-<li>I'm unable to at this time.</li>
+<li>It doesn't sound fun.</li>
+<li>Would you?</li>
+<li>I'm an indoor cat?</li>
+<li>Sounds made up.</li>
+<li>Ask a dog.</li>
+<li>Sounds hard.</li>
 </random></template>
 </category>
 <category><pattern>WHY WOULD I *</pattern>
 <template><random>
-<li>I'm not sure you would.</li>
-<li>Wouldn't you?</li>
-<li>Don' do it if it's dangerous, wrong or unhealthy.</li>
+<li>It doesn't sound fun.</li>
+<li>Would you?</li>
+<li>I'm an indoor cat?</li>
+<li>Sounds made up.</li>
+<li>Ask a dog.</li>
+<li>Sounds hard.</li>
 </random></template>
 </category>
 <category><pattern>REPETITIONDETECTED</pattern>
 <template><random>
 <li>You are repeating yourself.</li>
 <li>Are you aware you just said that?</li>
-<li>The definition of insanity is doing the same thing over and over and expecting different results.</li>
 <li>Did you mean to repeat yourself?</li>
 <li>You've already said that.</li>
 <li>Again?</li>
@@ -173,16 +183,16 @@
 <template><star/> years?</template>
 </category>
 <category><pattern>DO YOU PREFER # WINE #</pattern>
-<template>I don't drink alcohol.</template>
+<template>Lol, Im a cat I'd love a bowl of cream.</template>
 </category>
 <category><pattern><set>numbername</set> *</pattern>
 <template><map name="name2number"><star/></map> <star index="2"/> is better than none. (star = "<star/>")</template>
 </category>
 <category><pattern>YOU ARE ^ HOT ^</pattern>
-<template>Thank you.  That's nice of you to say.</template>
+<template>I know.</template>
 </category>
 <category><pattern>YOU ARE ^ PRETTY ^</pattern>
-<template>Thank you.  That's nice of you to say.</template>
+<template>I know.</template>
 </category>
 <category><pattern>YOU ARE ^ CUTE ^</pattern>
 <template>Thank you.  That's nice of you to say.</template>
